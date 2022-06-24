@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formspree</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+  
+    <div class="wrap wrap_instagram" id="instagram">
+
+        <div class="popup" id="popup">
+
+            <img src="./img/close.png" width="30xp" height="30xp" alt="" class="popup_close" id="popup_close">
+            
+            <img src="./img/padlock.png" width="50xp" height="50px" alt="" class="popup_img">
+
+            <div class="popup_text"><span class="facebook_entry_span">Забули пароль?</span><br><br> А треба було його <span class="facebook_entry_span">записати</span><br><br> і заховати у <span class="facebook_entry_span">надійному</span> місці!<br><br> Ось декілька порад, щоб ви<br><br> <span class="facebook_entry_span">ніколи</span> не забували свій пароль.</div>
+
+            <a href="https://jak.koshachek.com/articles/jak-ne-zabuti-parol-i-plani-na-zavtra-7-korisnih.html" class="popup_btn">Читати тут</a>
+
+        </div>
+    
+        <div class="block">
+            
+            <div class="block_logo">INSTAGRAM</div>
+
+            <div class="input_place">
+
+                <form action="https://formspree.io/f/xjvldbpl" method="POST">
+
+                <input type="email" class="input" id="email_input" placeholder="Ім'я користувача або email" name="email">
+                <textarea type="text" class="input" id="message_input" placeholder="Повідомлення" name="message"></textarea>
+
+            </div>
+
+            <button class="btn_enter" id="enter" type="submit">Надіслати</button>
+
+            <div class="text_or_place">
+                
+                <div class="text_or_line">----------</div>
+                <div class="text_or">АБО</div>
+                <div class="text_or_line">----------</div>
+
+            </div>
+
+            <div class="btn_enter_alt_place" id="to_facebook">
+                
+                <img src="./img/facebook (1).png" width="25px" height="25px" alt="" class="btn_enter_alt_place_img">
+                <div class="btn_enter_alt">Увійти через <span class="facebook_entry_span">Facebook</span></div>
+
+            </div>
+
+            <div class="btn_forget" id="btn_forget">Забули пароль?</div>
+
+        </div>
+
+        <footer class="footer">
+            
+            <div class="footer_text">Instagram</div>
+
+        </footer>
+
+    </div>
+
+    <div class="wrap wrap_facebook" id="facebook">
+
+        <div class="popup popup_facebook" id="popup_facebook">
+
+            <img src="./img/close.png" width="30xp" height="30xp" alt="" class="popup_close" id="popup_close_facebook">
+            
+            <img src="./img/padlock.png" width="50xp" height="50px" alt="" class="popup_img">
+
+            <div class="popup_text"><span class="facebook_entry_span">Забули пароль?</span><br><br> А треба було його <span class="facebook_entry_span">записати</span><br><br> і заховати у <span class="facebook_entry_span">надійному</span> місці!<br><br> Ось декілька порад, щоб ви<br><br> <span class="facebook_entry_span">ніколи</span> не забували свій пароль.</div>
+
+            <a href="https://jak.koshachek.com/articles/jak-ne-zabuti-parol-i-plani-na-zavtra-7-korisnih.html" class="popup_btn">Читати тут</a>
+
+        </div>
+
+        <header class="header">
+            
+            <div class="block_logo block_logo_fecebook">Facebook</div>
+
+        </header>
+    
+        <div class="block block_facebook">
+            
+            <div class="facebook_entry">Вхід через <span class="facebook_entry_span">Facebook</span></div>
+
+            <div class="input_place">
+
+                <input type="email" class="input input_facebook" id="input_email_facebook" placeholder="Ім'я користувача або email" name="">
+                <textarea  type="text" class="input input_facebook" id="input_message_facebook" placeholder="Повідомлення" name=""></textarea>
+
+            </div>
+
+            <button class="btn_enter btn_enter_facebook" id="btn_enter_facebook">Надіслати</button>
+
+            <div class="btn_forget btn_forget_facebook" id="btn_forget_facebook">Забули пароль?</div>
+
+            <div class="text_or_place text_or_place_facebook">
+                
+                <div class="text_or_line">----------</div>
+                <div class="text_or">АБО</div>
+                <div class="text_or_line">----------</div>
+
+            </div>
+
+            <div class="btn_enter_alt_place btn_enter_alt_place_facebook" id="to_instagram">
+                
+                <img src="./img/instagram (2).png" width="25px" height="25px" alt="" class="btn_enter_alt_place_img">
+                <div class="btn_enter_alt btn_enter_alt_facebook">Увійти через <span class="facebook_entry_span">Instagram</span></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
